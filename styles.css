@@ -22,7 +22,6 @@
 
 .conteneur_recherche
 {
-    background-color: black;
     padding: 1em;
     width: 20em;
     display: flex;
@@ -62,8 +61,6 @@
     height: 2.5em;
     display: flex;
     align-items: center;
-    border-top: 2.5% #F2F2F2 solid;
-    border-bottom: 2.5% #F2F2F2 solid;
 }
 #bouton_recherche
 {
