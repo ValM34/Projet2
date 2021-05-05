@@ -16,6 +16,147 @@
     display: none;
 }
 
+
+
+/* Partie formulaire de recherche */ 
+
+.conteneur_recherche
+{
+    background-color: black;
+    padding: 1em;
+    width: 20em;
+    display: flex;
+    align-items: center;
+}
+#icone_localisation
+{
+    background-color: #F2F2F2;
+    height: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: flex;
+    align-items: center;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-left: 1px #F2F2F2 solid;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+#formulaire_recherche
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+#rechercher
+{
+    height: 95%;
+    border: none;
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+.sous_conteneur_recherche_bordures
+{
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    border-top: 2.5% #F2F2F2 solid;
+    border-bottom: 2.5% #F2F2F2 solid;
+}
+#bouton_recherche
+{
+    background-color: #0065FC;
+    color: white;
+    height: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: flex;
+    align-items: center;
+    border-top: 1px #0065FC solid;
+    border-bottom: 1px #0065FC solid;
+    border-right: 1px #0065FC solid;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+#bouton_recherche:hover
+{
+    cursor: pointer;
+}
+.sous_conteneur_recherche
+{
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+/* Fin partie formulaire de recherche */
+
+/* Partie filtres */
+
+#conteneur_filtres
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3em;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.icone_filtres
+{
+    display: flex;
+    align-items: center;
+    background-color: #DEEBFF ;
+    height: 100%;
+    border-radius: 2em;
+    width: 3em;
+    justify-content: center;
+    margin-right: 1em;
+    border: 2px #DEEBFF solid
+}
+.icone_texte
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 2px #F2F2F2 solid;
+    border-left: none;
+    margin-left: 1em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    padding-right: 1em;
+    cursor: pointer;
+}
+.icone_texte:hover
+{
+    box-shadow: 0.3em 0.3em 1em #F2F2F2;
+    color: #0065FC;
+}
+.fa-money-bill-wave
+{
+    color: #0065FC;
+}
+.fa-child
+{
+    color: #0065FC;
+}
+.fa-heart
+{
+    color: #0065FC;
+}
+.fa-dog
+{
+    color: #0065FC;
+}
+
+/* Fin partie filtres */
+
 /* Partie "hébergements à Marseille + les plus populaires" */
 
 .conteneur
@@ -103,79 +244,3 @@
 }
 
 /* Fin partie "hébergements à Marseille + les plus populaires" */
-
-/* Partie formulaire de recherche */ 
-
-.conteneur_recherche
-{
-    background-color: black;
-    padding: 1em;
-    width: 20em;
-    display: flex;
-    align-items: center;
-}
-#icone_localisation
-{
-    background-color: #F2F2F2;
-    height: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: flex;
-    align-items: center;
-    border-top: 1px #F2F2F2 solid;
-    border-bottom: 1px #F2F2F2 solid;
-    border-left: 1px #F2F2F2 solid;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-}
-#formulaire_recherche
-{
-    background-color: yellow;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    border-top: 1px #F2F2F2 solid;
-    border-bottom: 1px #F2F2F2 solid;
-}
-#rechercher
-{
-    height: 95%;
-    border: none;
-    padding-left: 0.5em;
-    font-weight: bold;
-}
-.sous_conteneur_recherche_bordures
-{
-    height: 2.5em;
-    display: flex;
-    align-items: center;
-    border-top: 2.5% #F2F2F2 solid;
-    border-bottom: 2.5% #F2F2F2 solid;
-}
-#bouton_recherche
-{
-    background-color: #0065FC;
-    color: white;
-    height: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: flex;
-    align-items: center;
-    border-top: 1px #0065FC solid;
-    border-bottom: 1px #0065FC solid;
-    border-right: 1px #0065FC solid;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-#bouton_recherche:hover
-{
-    cursor: pointer;
-}
-.sous_conteneur_recherche
-{
-    height: 2.5em;
-    display: flex;
-    align-items: center;
-}
-
-/* Fin partie formulaire de recherche */
