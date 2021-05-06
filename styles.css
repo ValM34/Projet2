@@ -159,7 +159,7 @@
 .conteneur
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0fr 0fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .conteneur_populaires
 {
@@ -173,6 +173,11 @@
     border-radius: 1em;
     box-shadow: 0.3em 0.3em 0.8em #CDCAD1;
 }
+.conteneur_vignette:hover
+{
+    box-shadow: 0.6em 0.6em 0.8em #b4b2b6;
+}
+
 .marge_vignette
 {
     margin: 0em 1em 1em 1em;
@@ -238,6 +243,21 @@
 .texte_vignette
 {
     padding-left: 1em;
+}
+#afficher_plus
+{
+    text-decoration: none;
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    width: 6em;
+}
+#afficher_plus:hover
+{
+    color: #0065FC;
 }
 
 /* Fin partie "hébergements à Marseille + les plus populaires" */
