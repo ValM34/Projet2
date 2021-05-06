@@ -7,7 +7,8 @@
     background-size: cover;
     width: 20em;
     height: 10em;
-    border-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
     width: 100%;
 }
     
@@ -15,7 +16,11 @@
 {
     display: none;
 }
-
+a
+{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* Partie formulaire de recherche */ 
@@ -134,6 +139,7 @@
 {
     box-shadow: 0.3em 0.3em 1em #F2F2F2;
     color: #0065FC;
+    transition-duration: 200ms;
 }
 .fa-money-bill-wave
 {
@@ -169,13 +175,14 @@
 .conteneur_vignette
 {
     background-color: white;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 1em;
-    box-shadow: 0.3em 0.3em 0.8em #CDCAD1;
+    box-shadow: 0.2em 0.2em 0.8em #CDCAD1;
 }
 .conteneur_vignette:hover
 {
-    box-shadow: 0.6em 0.6em 0.8em #b4b2b6;
+    box-shadow: 0.2em 0.2em 0.8em #b4b2b6;
+    transition-duration: 200ms;
 }
 
 .marge_vignette
@@ -198,7 +205,6 @@
 }
 .partie_1_conteneur
 {
-    background-color: purple;
     display: flex;
     padding-left: 3em;
     padding-right: 3em;
@@ -229,7 +235,8 @@
     background-size: cover;
     width: 20em;
     height: 10em;
-    border-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
     width: 40%;
 }
 .image_2 img
@@ -259,7 +266,10 @@
 {
     color: #0065FC;
 }
-
+.nom_hebergement
+{
+    text-decoration: none;
+}
 /* Fin partie "hébergements à Marseille + les plus populaires" */
 
 /* Partie Activités à Marseille */
@@ -292,10 +302,13 @@
 }
 .conteneur_images_activites
 {
-    background-color: brown;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 3em;
+}
+#titre_activites
+{
+    margin-left: 3.3em;
 }
 .vignette_activites
 {
@@ -311,9 +324,14 @@
     margin: 1em;
     border-radius: 1em;
     background-color: white;
-    box-shadow: 2em 2em 2em black;
+    box-shadow: 0.2em 0.2em 0.8em #CDCAD1;
 }
-p
+.lien_activites:hover
+{
+    box-shadow: 0.2em 0.2em 0.8em #b4b2b6;
+    transition-duration: 200ms;
+}
+.texte_activites
 {
     padding-left: 1em;
 }
