@@ -241,3 +241,61 @@
 }
 
 /* Fin partie "hébergements à Marseille + les plus populaires" */
+
+/* Partie Activités à Marseille */
+
+.image_activites
+{
+    background-size: cover;
+    width: 100%;
+    height: 35.2em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+    
+.image_activites img 
+{
+    display: none;
+}
+.image_activites_2
+{
+    background-size: cover;
+    width: 100%;
+    height: 15em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+    
+.image_activites_2 img 
+{
+    display: none;
+}
+.conteneur_images_activites
+{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3em;
+}
+.vignette_activites
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.lien_activites
+{
+    width: 100%;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 2em 2em 2em black;
+}
+p
+{
+    padding-left: 1em;
+}
+
+/* Fin partie activités à Marseille */
