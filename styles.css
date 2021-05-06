@@ -270,6 +270,14 @@ a
 {
     text-decoration: none;
 }
+.fa-star
+{
+    color: #0065FC;
+}
+.star_grise
+{
+    color: #dadada;
+}
 /* Fin partie "hébergements à Marseille + les plus populaires" */
 
 /* Partie Activités à Marseille */
