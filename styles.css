@@ -350,6 +350,18 @@ body
 {
     color: #dadada;
 }
+#test
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-chart-line
+{
+    font-size: 1.5em;
+    padding-top: 0.8em;
+    padding-right: 1.2em;
+}
 /* Fin partie "hébergements à Marseille + les plus populaires" */
 
 /* Partie Activités à Marseille */
