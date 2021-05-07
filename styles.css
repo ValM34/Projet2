@@ -10,6 +10,7 @@
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     width: 100%;
+    background-position: center center;
 }
     
 .image img
@@ -310,6 +311,7 @@ body
     border-bottom-left-radius: 1em;
     border-top-left-radius: 1em;
     width: 40%;
+    background-position: center center;
 }
 .image_2 img
 {
@@ -373,6 +375,7 @@ body
     height: 35.2em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    background-position: center center;
 }
     
 .image_activites img 
@@ -386,6 +389,7 @@ body
     height: 15em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    background-position: center center;
 }
     
 .image_activites_2 img 
