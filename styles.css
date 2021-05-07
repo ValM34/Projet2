@@ -214,6 +214,24 @@ body
 
 /* Fin partie filtres */
 
+/* Partie info */
+
+.fa-info
+{
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 2em;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    margin-right: 5px;
+    margin-left: 80px;
+    font-size: 0.8em;
+}
+
+/* Fin partie info */
+
 /* Partie "hébergements à Marseille + les plus populaires" */
 
 .conteneur
