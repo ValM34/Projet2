@@ -26,12 +26,54 @@ h1
     font-size: 1.5em;
     margin-bottom: 0.3em;
     margin-left: 80px;
+    margin-top: 1.5em;
 }
 #texte_1
 {
     margin-left: 80px;
     margin-top: 0em;
 }
+body
+{
+    margin: 0px;
+}
+
+/* Partie header */
+#logo
+{
+    float: left;
+    width: 100px;
+    padding-left: 80px;
+}
+#conteneur_liens_header
+{
+    display: flex; 
+    justify-content: flex-end;
+}
+.liens_header
+{
+    margin-right: 3em;
+    padding-top: 1em;
+    display: flex;
+    align-items: flex-start;
+}
+.liens_header:hover
+{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+.sinscrire
+{
+    margin-right: 3em;
+    font-weight: bold;
+    padding-top: 1em;
+    color: #0065FC;
+}
+.sinscrire:hover
+{
+    border-top: 2px solid #0065FC;
+}
+/* Fin partie header */
 
 /* Partie formulaire de recherche */ 
 
