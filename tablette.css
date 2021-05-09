@@ -372,6 +372,7 @@ body
     border-radius: 1em;
     background-color: white;
     box-shadow: 0.2em 0.2em 0.8em #CDCAD1;
+    width: 100%;
 }
 .lien_activites:hover
 {
@@ -455,14 +456,14 @@ footer
 }
 .conteneur_images_activites
 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
     padding: 3em;
 }
 .double_vignettes
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 .image_activites
 {
