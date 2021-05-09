@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px)
+@media screen and (max-width: 1024px)
 {
 *
 {
@@ -241,11 +241,6 @@ body
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.conteneur_populaires
-{
-    display: flex;
-    flex-direction: column;
-}
 .conteneur_vignette
 {
     background-color: white;
@@ -277,22 +272,6 @@ body
     border-radius: 2em;
     height: 100%;
 }
-.partie_1_conteneur
-{
-    display: flex;
-    padding-left: 3em;
-    padding-right: 3em;
-}
-.marge_conteneur
-{
-    margin: 2em;
-    width: 70%;
-}
-.marge_conteneur_2
-{
-    margin: 2em;
-    width: 30%;
-}
 .texte_et_vignettes
 {
     display: flex;
@@ -304,27 +283,13 @@ body
     margin-left: 2em;
     margin-top: 1.5em;
 }
-.image_2
-{
-    background-size: cover;
-    width: 20em;
-    height: 10em;
-    border-bottom-left-radius: 1em;
-    border-top-left-radius: 1em;
-    width: 40%;
-    background-position: center center;
-}
 .image_2 img
 {
     display: none;
 }
-.alignement_image_vignette
-{
-    display: flex;
-}
 .texte_vignette
 {
-    padding-left: 1em;
+    padding-left: 0.2em;
 }
 #afficher_plus
 {
@@ -369,15 +334,7 @@ body
 
 /* Partie Activités à Marseille */
 
-.image_activites
-{
-    background-size: cover;
-    width: 100%;
-    height: 35.2em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    background-position: center center;
-}
+
     
 .image_activites img 
 {
@@ -396,12 +353,6 @@ body
 .image_activites_2 img 
 {
     display: none;
-}
-.conteneur_images_activites
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 3em;
 }
 #titre_activites
 {
@@ -469,4 +420,59 @@ footer
 
 /* Fin partie Footer */
 
+
+
+
+/* reponsive tablette */
+.partie_1_conteneur
+{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.marge_conteneur
+{
+    margin: 2em;
+}
+.marge_conteneur_2
+{
+    margin: 2em;
+}
+.alignement_image_vignette
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image_2
+{
+    background-size: cover;
+    width: 20em;
+    height: 10em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    width: 100%;
+    background-position: center center;
+}
+.conteneur_images_activites
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 3em;
+}
+.double_vignettes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image_activites
+{
+    background-size: cover;
+    width: 100%;
+    height: 15em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center center;
+}
+/* Fin responsive tablette */
 }
