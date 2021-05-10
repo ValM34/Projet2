@@ -157,7 +157,6 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    height: 3em;
     align-items: center;
     font-weight: bold;
     margin-top: 1em;
@@ -172,6 +171,7 @@ body
     height: 100%;
     border-radius: 2em;
     width: 3em;
+    height: 3em;
     justify-content: center;
     margin-right: 1em;
     border: 2px #DEEBFF solid
@@ -259,12 +259,15 @@ body
 {
     margin: 0em 0em 1em 0em;
 }
+.marge_vignette_2
+{
+    margin: 0em 0em 1em 0em;
+}
 .conteneur_hebergement
 {
     border-radius: 2em;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    margin: 1em;
 }
 .conteneur_hebergement_2
 {

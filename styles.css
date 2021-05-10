@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1025px)
 {
 *
 {
@@ -261,7 +261,11 @@ body
 
 .marge_vignette
 {
-    margin: 0em 1em 1em 1em;
+    margin: 1em 1em 1em 1em;
+}
+.marge_vignette_2
+{
+    margin: 1em 3em 1em 3em;
 }
 .conteneur_hebergement
 {
@@ -270,6 +274,8 @@ body
     height: 100%;
     display: flex;
     justify-content: center;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 .conteneur_hebergement_2
 {
@@ -301,7 +307,7 @@ body
 }
 .titre_partie_1
 {
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: 1.5em;
 }
 .image_2
@@ -329,7 +335,7 @@ body
 #afficher_plus
 {
     text-decoration: none;
-    margin-left: 2.5em;
+    margin-left: 1em;
     margin-top: 1.5em;
     color: black;
     font-weight: bold;
@@ -344,6 +350,11 @@ body
 .nom_hebergement
 {
     text-decoration: none;
+}
+.texte_hebergement
+{
+    padding-top: 0.5em;
+    margin-left: 0.7em;
 }
 .fa-star
 {
@@ -431,6 +442,7 @@ body
 .texte_activites
 {
     padding-left: 1em;
+    font-weight: bold;
 }
 
 /* Fin partie activités à Marseille */

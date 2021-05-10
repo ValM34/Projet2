@@ -157,7 +157,6 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    height: 3em;
     align-items: center;
     font-weight: bold;
     margin-top: 1em;
@@ -172,6 +171,7 @@ body
     height: 100%;
     border-radius: 2em;
     width: 3em;
+    height: 3em;
     justify-content: center;
     margin-right: 1em;
     border: 2px #DEEBFF solid
@@ -259,18 +259,19 @@ body
 {
     margin: 0em 1em 1em 1em;
 }
+.marge_vignette_2
+{
+    margin: 0em 1em 1em 1em;
+}
 .conteneur_hebergement
 {
-    background-color: #F2F2F2;
     border-radius: 2em;
     height: 100%;
-    display: flex;
-    justify-content: center;
 }
 .conteneur_hebergement_2
 {
     background-color: #F2F2F2;
-    border-radius: 2em;
+    padding: 1em;
     height: 100%;
 }
 .texte_et_vignettes
@@ -280,7 +281,7 @@ body
 }
 .titre_partie_1
 {
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: 1.5em;
 }
 .image_2 img
@@ -294,7 +295,7 @@ body
 #afficher_plus
 {
     text-decoration: none;
-    margin-left: 2.5em;
+    margin-left: 1em;
     margin-top: 1.5em;
     color: black;
     font-weight: bold;
@@ -356,15 +357,13 @@ body
 }
 #titre_activites
 {
-    margin-left: 3.3em;
+    margin-left: 1.3em;
 }
 .vignette_activites
 {
     display: flex;
     justify-content: center;
     border-radius: 1em;
-    margin-right: 1em;
-    margin-left: 1em;
 }
 .lien_activites
 {
@@ -382,6 +381,7 @@ body
 .texte_activites
 {
     padding-left: 1em;
+    font-weight: bold;
 }
 
 /* Fin partie activités à Marseille */
@@ -396,7 +396,7 @@ footer
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 5em;
+    margin-left: 2em;
 }
 .parties_footer
 {
@@ -428,16 +428,10 @@ footer
 {
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 3em;
-    padding-right: 3em;
 }
 .marge_conteneur
 {
-    margin: 2em;
-}
-.marge_conteneur_2
-{
-    margin: 2em;
+    padding:1em;
 }
 .alignement_image_vignette
 {
@@ -458,7 +452,7 @@ footer
 {
     display: flex;
     flex-direction: column;
-    padding: 3em;
+    padding: 1em;
 }
 .double_vignettes
 {
