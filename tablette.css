@@ -44,21 +44,41 @@ body
 /* Partie header */
 #logo
 {
-    float: left;
-    width: 100px;
-    padding-left: 80px;
+    margin-left: 80px;
 }
 #conteneur_liens_header
 {
-    display: flex; 
-    justify-content: flex-end;
+    display: grid; 
+    grid-template-columns: 12fr 1fr;
 }
 .liens_header
 {
     margin-right: 3em;
     padding-top: 1em;
+}
+#nav_1
+{
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+}
+#nav_2
+{
+    display: flex;
+}
+.test3
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.test4
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.test5
+{
+    display: flex;
+    justify-content: flex-end;
 }
 .liens_header:hover
 {
@@ -87,13 +107,14 @@ body
     display: flex;
     margin-left: 80px;
     padding: 0em;
+    height: 3em;
 }
 #icone_localisation
 {
     background-color: #F2F2F2;
     height: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     align-items: center;
     border-top: 1px #F2F2F2 solid;
@@ -116,10 +137,11 @@ body
     border: none;
     padding-left: 0.5em;
     font-weight: bold;
+    font-size: 1em;
+    padding-right: 2em;
 }
 .sous_conteneur_recherche_bordures
 {
-    height: 2.5em;
     display: flex;
     align-items: center;
 }
@@ -128,8 +150,8 @@ body
     background-color: #0065FC;
     color: white;
     height: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     align-items: center;
     border-top: 1px #0065FC solid;
@@ -137,6 +159,11 @@ body
     border-right: 1px #0065FC solid;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+    font-weight: bold;
+}
+.fa-search
+{
+    visibility: hidden;
 }
 #bouton_recherche:hover
 {
@@ -144,7 +171,6 @@ body
 }
 .sous_conteneur_recherche
 {
-    height: 2.5em;
     display: flex;
     align-items: center;
 }
@@ -424,7 +450,7 @@ footer
 
 
 /* reponsive tablette */
-.partie_1_conteneur
+#partie_1_conteneur
 {
     display: flex;
     flex-direction: column-reverse;
