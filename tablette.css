@@ -454,6 +454,7 @@ footer
 {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 1em;
 }
 .marge_conteneur
 {
