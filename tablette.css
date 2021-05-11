@@ -28,12 +28,12 @@ h1
 {
     font-size: 1.5em;
     margin-bottom: 0.3em;
-    margin-left: 80px;
+    margin-left: 1.7em;
     margin-top: 1.5em;
 }
 #texte_1
 {
-    margin-left: 80px;
+    margin-left: 2.5em;
     margin-top: 0em;
 }
 body
@@ -44,7 +44,7 @@ body
 /* Partie header */
 #logo
 {
-    margin-left: 80px;
+    margin-left: 2.5em;
 }
 #conteneur_liens_header
 {
@@ -105,7 +105,7 @@ body
     padding: 1em;
     width: 20em;
     display: flex;
-    margin-left: 80px;
+    margin-left: 2.5em;
     padding: 0em;
     height: 3em;
 }
@@ -187,7 +187,7 @@ body
     font-weight: bold;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 80px;
+    margin-left: 2.5em;
 }
 .icone_filtres
 {
@@ -255,8 +255,13 @@ body
     padding-bottom: 5px;
     padding-left: 9px;
     margin-right: 5px;
-    margin-left: 80px;
+    margin-left: 2.5em;
     font-size: 0.8em;
+}
+.conteneur_info
+{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 /* Fin partie info */
@@ -280,7 +285,18 @@ body
     box-shadow: 0.2em 0.2em 0.8em #b4b2b6;
     transition-duration: 200ms;
 }
-
+.conteneur_vignette_2
+{
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.8em #CDCAD1;
+}
+.conteneur_vignette_2:hover
+{
+    box-shadow: 0.2em 0.2em 0.8em #b4b2b6;
+    transition-duration: 200ms;
+}
 .marge_vignette
 {
     margin: 0em 1em 1em 1em;
@@ -317,6 +333,13 @@ body
 .texte_vignette
 {
     padding-left: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteneur_etoiles
+{
+    padding-bottom: 0.5em;
 }
 #afficher_plus
 {
@@ -378,6 +401,34 @@ body
 }
     
 .image_activites_2 img 
+{
+    display: none;
+}
+.image_activites_3
+{
+    background-size: cover;
+    width: 100%;
+    height: 15em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center center;
+}
+    
+.image_activites_3 img 
+{
+    display: none;
+}
+.image_activites_4
+{
+    background-size: cover;
+    width: 100%;
+    height: 15em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center center;
+}
+    
+.image_activites_4 img 
 {
     display: none;
 }
