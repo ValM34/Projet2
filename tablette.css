@@ -321,7 +321,12 @@ body
     display: flex;
     flex-direction: column;
 }
-.titre_partie_1
+#titre_partie_1
+{
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+.titre_partie_2
 {
     margin-left: 1em;
     margin-top: 1.5em;

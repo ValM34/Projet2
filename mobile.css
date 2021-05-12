@@ -356,7 +356,11 @@ body
     display: flex;
     flex-direction: column;
 }
-.titre_partie_1
+#titre_partie_1
+{
+    margin-top: 1em;
+}
+.titre_partie_2
 {
     margin-top: 1em;
 }
