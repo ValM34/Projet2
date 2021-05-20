@@ -493,11 +493,11 @@ body
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 3em;
+    padding: 0em 3em 3em 3em;
 }
 #titre_activites
 {
-    margin-left: 3.3em;
+    margin: 1.3em 0em 0.3em 3.3em;
 }
 .vignette_activites
 {
