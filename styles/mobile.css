@@ -120,14 +120,18 @@ body
 /* Fin partie header */
 
 /* Partie formulaire de recherche */ 
-
+.bordure_mobile
+{
+    border: 1px #F2F2F2 solid;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+}
 .conteneur_recherche
 {
     display: flex;
     justify-content: space-between;
     height: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
 }
 #icone_localisation
 {
