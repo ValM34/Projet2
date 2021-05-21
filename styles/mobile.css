@@ -527,7 +527,7 @@ footer
 .titre_footer
 {
     font-weight: bold;
-    margin-bottom: 1.3em;
+    margin-bottom: 1.5em 0 1.3em 0;
 }
 .div_footer
 {
