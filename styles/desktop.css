@@ -2,7 +2,7 @@
 {
 *
 {
-    font-family: 'raleway',Arial;
+    font-family: 'raleway', 'sans serif';
 }
 .image 
 {
@@ -266,6 +266,43 @@ body
 
 /* Partie "hébergements à Marseille + les plus populaires" */
 
+.background1 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.background2 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg)
+}
+.background3 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg)
+}
+.background4 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg)
+}
+.background5 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg)
+}
+.background6 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)
+}
+.background7 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)
+}
+.background8 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg)
+}
+.background9 
+{
+    background-image: url(../Projet2Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg)
+}
+
 .conteneur
 {
     display: grid;
@@ -432,6 +469,31 @@ body
 /* Fin partie "hébergements à Marseille + les plus populaires" */
 
 /* Partie Activités à Marseille */
+
+.background10 
+{
+    background-image: url(../Projet2Reservia/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+.background11
+{
+    background-image: url(../Projet2Reservia/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+.background12
+{
+    background-image: url(../Projet2Reservia/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+.background13
+{
+    background-image: url(../Projet2Reservia/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+.background14
+{
+    background-image: url(../Projet2Reservia/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+.background15
+{
+    background-image: url(../Projet2Reservia/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+}
 
 .image_activites
 {
